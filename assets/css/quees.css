@@ -192,3 +192,11 @@
 .beneficios__texto {
     margin-bottom: var(--mb-4);
 }
+
+.servicios {
+    height: 100vh;
+}
+
+.quees {
+    height: 100vh;
+}
