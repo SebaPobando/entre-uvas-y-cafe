@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/whatsapp.css">
     <link rel="stylesheet" href="assets/css/carrusel.css">
     <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
@@ -47,56 +48,84 @@
     </div>
     <!--===== FIN WHATSAPP FLOTANTE =====-->
 
-    <!--===== INICIO HOGAR =====-->
-    <section class="home">
-        <div class="slider">
-            <div class="slide active" style="background-image: url('assets/img/slide-1.jpg')">
-                <div class="container">
-                    <div class="caption">
-                        <h1>EL MEJOR CAFÉ PARA TU DÍA</h1>
-                        <p>Empieza tu jornada con el <font color="#a997b2">aroma perfecto</font> y el sabor inigualable
-                            de nuestro café de especialidad.</p>
-                        <a href="#contacto">Contáctanos</a>
+    <!--===== INICIO HEADER =====-->
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div>
+                <img src="assets/img/logo-navbar.png" alt="">
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#quees" class="nav__link">¿QUÉ ES TINY?</a></li>
+                    <li class="nav__item"><a href="#caracteristicas" class="nav__link">CARACTERÍSTICAS</a></li>
+                    <li class="nav__item"><a href="#proceso" class="nav__link">PRECIO</a></li>
+                    <li class="nav__item"><button class="boton cuatro"><span><a href="#contacto" class="nav__link">
+                                    <font color="#fff">Contacto</font>
+                                </a></span></button></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--===== FIN HEADER =====-->
+
+        <!--===== INICIO HOGAR =====-->
+        <section class="home">
+            <div class="slider">
+                <div class="slide active" style="background-image: url('assets/img/slide-1.jpg')">
+                    <div class="container">
+                        <div class="caption">
+                            <h1>EL MEJOR CAFÉ PARA TU DÍA</h1>
+                            <p>Empieza tu jornada con el <font color="#a997b2">aroma perfecto</font> y el sabor
+                                inigualable
+                                de nuestro café de especialidad.</p>
+                            <a href="#contacto">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('assets/img/slide-2.jpg')">
+                    <div class="container">
+                        <div class="caption">
+                            <h1>DULCES MOMENTOS</h1>
+                            <p>Disfruta de nuestra <font color="#a997b2">pastelería artesanal</font>, el complemento
+                                ideal
+                                para una experiencia única.</p>
+                            <a href="#contacto">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('assets/img/slide-3.jpg')">
+                    <div class="container">
+                        <div class="caption">
+                            <h1>UN ESPACIO PARA COMPARTIR</h1>
+                            <p>Ven a nuestro acogedor rincón y vive momentos especiales con quienes más quieres.</p>
+                            <a href="#contacto">Contáctanos</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('assets/img/slide-2.jpg')">
-                <div class="container">
-                    <div class="caption">
-                        <h1>DULCES MOMENTOS</h1>
-                        <p>Disfruta de nuestra <font color="#a997b2">pastelería artesanal</font>, el complemento ideal
-                            para una experiencia única.</p>
-                        <a href="#contacto">Contáctanos</a>
-                    </div>
+
+            <!-- controls  -->
+            <div class="controls">
+                <div class="prev">
+                    < </div>
+                        <div class="next">></div>
                 </div>
-            </div>
-            <div class="slide" style="background-image: url('assets/img/slide-3.jpg')">
-                <div class="container">
-                    <div class="caption">
-                        <h1>UN ESPACIO PARA COMPARTIR</h1>
-                        <p>Ven a nuestro acogedor rincón y vive momentos especiales con quienes más quieres.</p>
-                        <a href="#contacto">Contáctanos</a>
-                    </div>
+
+                <!-- indicators -->
+                <div class="indicator">
                 </div>
-            </div>
-        </div>
 
-        <!-- controls  -->
-        <div class="controls">
-            <div class="prev">
-                < </div>
-                    <div class="next">></div>
-            </div>
-
-            <!-- indicators -->
-            <div class="indicator">
-            </div>
-
-    </section>
-    <!--===== FIN HOGAR =====-->
+        </section>
+        <!--===== FIN HOGAR =====-->
 
 </body>
 <script defer src="assets/javascript/whatsapp.js"></script>
 <script defer src="assets/javascript/carrusel.js"></script>
+<script defer src="assets/javascript/header.js"></script>
 
 </html>
