@@ -101,3 +101,25 @@ img {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
+
+/*===== CLASS CSS ===== */
+.seccion-titulo {
+    position: relative;
+    font-size: 25px;
+    color: var(--first-color);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+
+.seccion-titulo::after {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-color);
+}
