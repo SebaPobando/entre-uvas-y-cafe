@@ -35,7 +35,3 @@
         grid-template-rows: repeat(2, 1fr);
     }
 }
-
-.galeria {
-    height: 100vh;
-}
