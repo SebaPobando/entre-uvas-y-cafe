@@ -1,0 +1,50 @@
+/* ===== DISEÑO =====*/
+.diseño__container {
+    row-gap: 2rem;
+}
+
+.diseño__img {
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+
+.diseño__img img {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.diseño__img img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+
+    .diseño__container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 2rem;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bd-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .col {
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
