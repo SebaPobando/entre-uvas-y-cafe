@@ -73,7 +73,7 @@
 .home .caption a {
     display: inline-block;
     padding: 10px 30px;
-    background-color: #05c46b;
+    background-color: #795a8f;
     text-decoration: none;
     color: #ffffff;
     border-radius: 4px;
@@ -106,7 +106,7 @@
     width: 40px;
     margin-top: -20px;
     color: #ffffff;
-    background-color: #05c46b;
+    background-color: #3e1663;
     text-align: center;
     line-height: 40px;
     font-size: 20px;
@@ -116,7 +116,7 @@
 
 .home .controls .prev:hover,
 .home .controls .next:hover {
-    background-color: #b2bec3;
+    background-color: #a997b2;
 }
 
 .home .controls .prev {
@@ -141,7 +141,7 @@
     width: 25px;
     height: 25px;
     color: #ffffff;
-    background-color: #05c46b;
+    background-color: #3e1663;
     border-radius: 50%;
     text-align: center;
     line-height: 25px;
@@ -149,7 +149,7 @@
 }
 
 .home .indicator div.active {
-    background-color: #b2bec3;
+    background-color: #a997b2;
 }
 
 @media screen and (max-width: 600px) {
