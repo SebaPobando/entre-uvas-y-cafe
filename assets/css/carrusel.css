@@ -161,3 +161,8 @@
         width: 80%;
     }
 }
+
+.controls .prev,
+.controls .next {
+    display: none;
+}

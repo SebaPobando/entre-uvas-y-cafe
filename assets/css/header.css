@@ -167,6 +167,7 @@
     position: relative;
     overflow: hidden;
     width: 100px;
+    height: 30px;
 }
 
 .boton span {
@@ -192,4 +193,20 @@
 .boton.cuatro:hover::after {
     transform: scale(400);
     background: #795a8f;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo img {
+    height: 50px;
+    /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 10px;
+}
+
+.nav__title {
+    font-size: 15px;
+    color: #3e1663;
 }
