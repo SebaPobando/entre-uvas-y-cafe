@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.seccion {
+    width: 100%;
+}
+
 /*===== VARIABLES CSS =====*/
 :root {
     --header-height: 3rem;
