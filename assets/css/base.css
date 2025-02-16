@@ -155,12 +155,6 @@ body {
         /* Asegúrate de que los contenedores no se desborden */
     }
 
-    .whatsapp-button,
-    .circle-anime {
-        right: 20px;
-        /* Ajusta la posición del botón de WhatsApp */
-    }
-
     .nav__title {
         font-size: 1rem;
         /* Ajusta el tamaño de la fuente para pantallas pequeñas */
@@ -214,12 +208,6 @@ body {
     .bd-grid {
         width: 100%;
         /* Asegúrate de que los contenedores no se desborden */
-    }
-
-    .whatsapp-button,
-    .circle-anime {
-        right: 10px;
-        /* Ajusta la posición del botón de WhatsApp */
     }
 
     .nav__title {
@@ -276,13 +264,6 @@ body {
         width: 100%;
         /* Asegúrate de que los contenedores no se desborden */
     }
-
-    .whatsapp-button,
-    .circle-anime {
-        right: 5px;
-        /* Ajusta la posición del botón de WhatsApp */
-    }
-
 
     .nav__title {
         font-size: 0.8rem;
